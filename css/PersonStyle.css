@@ -4,6 +4,23 @@ html {
 
 
 }
+.site-nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+    background-color: #55c0b2;
+    border-bottom: 2px solid white;
+}
+.site-nav a {
+    padding: 0.6rem 1rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
 body {
     background-color: lightslategrey;
     text-align: center;
@@ -26,6 +43,11 @@ img {
     border: 5px solid #fff;
     cursor: pointer;
     transition: transform 0.3s;
+}
+
+#Image {
+    width: 35%;
+    max-width: 400px;
 }
 
 img.pop {
