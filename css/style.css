@@ -13,7 +13,7 @@ html {
     flex-wrap: wrap;
     padding: 1rem;
     background-color: #55c0b2;
-    border-bottom: 2px solid white;
+    border-bottom: 5px solid white;
 }
 .site-nav a {
     padding: 0.6rem 1rem;
@@ -29,7 +29,8 @@ body {
     font-weight: 700;
     letter-spacing: 0.04em;
     margin: 0;
-    border: 2px solid white;
+    border: 5px solid white;
+    border-radius: 1rem;
     min-height: 100vh;
     box-sizing: border-box;
 }
