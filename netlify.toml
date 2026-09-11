@@ -1,3 +1,17 @@
 [build]
   publish = "."
 
+[[redirects]]
+  from = "/about"
+  to = "/HTML/about.html"
+  status = 200
+
+[[redirects]]
+  from = "/game"
+  to = "/HTML/game.html"
+  status = 200
+
+[[redirects]]
+  from = "/person"
+  to = "/HTML/person.html"
+  status = 200
