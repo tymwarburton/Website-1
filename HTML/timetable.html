@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable</title>
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/TimeStyle.css">
+    <script src="../Scripts/timescript.js" defer></script>
+</head>
+<body>
+<nav class="site-nav" aria-label="Main navigation">
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/game">Favourite Game</a>
+    <a href="/person">Person</a>
+    <a href="/timetable">Timetable</a>
+</nav>
+<main class="timetable-page">
+    <h1>Timetable</h1>
+    <p id="clock" class="timetable-clock" aria-live="polite"></p>
+
+    <div class="timetable-layout">
+        <section class="timetable-status" aria-labelledby="status-heading">
+            <h2 id="status-heading">Now</h2>
+            <p id="current-lesson"></p>
+            <div id="progress-wrap" class="progress-wrap" hidden>
+                <div id="progress-bar" class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
+            </div>
+            <p id="time-left"></p>
+
+            <h2>Next</h2>
+            <p id="next-lesson"></p>
+            <p id="next-countdown"></p>
+        </section>
+
+        <aside class="timetable-day-list" aria-labelledby="day-list-heading">
+            <h2 id="day-list-heading">Today's lessons</h2>
+            <ul id="day-lessons"></ul>
+        </aside>
+    </div>
+</main>
+</body>
+</html>

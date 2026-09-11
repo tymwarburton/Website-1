@@ -11,3 +11,9 @@ document.querySelectorAll("img").forEach(function (image) {
         popPicture(image);
     });
 });
+
+function aboutButtonClicked() {
+    document.getElementById("about-button").textContent = "Clicked!";
+}
+
+document.getElementById("about-button").addEventListener("click", aboutButtonClicked);
