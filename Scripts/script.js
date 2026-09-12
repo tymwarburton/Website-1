@@ -17,5 +17,3 @@ function aboutButtonClicked() {
 }
 
 document.getElementById("about-button").addEventListener("click", aboutButtonClicked);
-const myElement = <h1>I Love JSX!</h1>;
-document.getElementById("home").appendChild(myElement);
