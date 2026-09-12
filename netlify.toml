@@ -21,7 +21,8 @@
   to = "/HTML/person.html"
   status = 200
 
+# CHANGED: Replaced the 200 rewrite with a standard 404 redirect rule
 [[redirects]]
   from = "/*"
   to = "/index.html"
-  status = 200
+  status = 404
