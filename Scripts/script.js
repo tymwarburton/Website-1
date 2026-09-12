@@ -13,7 +13,7 @@ document.querySelectorAll("img").forEach(function (image) {
 });
 
 function aboutButtonClicked() {
-    const currentTime = new Date().toLocaleString();
+    const currentTime = new Date().toLocaleTimeString();
     document.getElementById("about-button").textContent = currentTime;
 }
 
