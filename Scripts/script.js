@@ -1,4 +1,4 @@
-
+const currentTime = new Date().toLocaleString();
 function popPicture(imageElement) {
     imageElement.classList.add("pop");
     setTimeout(function () {
@@ -13,7 +13,8 @@ document.querySelectorAll("img").forEach(function (image) {
 });
 
 function aboutButtonClicked() {
-    document.getElementById("about-button").textContent = "Clicked!";
+    document.getElementById("about-button").textContent = currentTime;
 }
+
 
 document.getElementById("about-button").addEventListener("click", aboutButtonClicked);
